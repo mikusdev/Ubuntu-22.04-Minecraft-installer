@@ -33,3 +33,7 @@ chmod u+x server.sh
 echo "Installing Geyser..."
 cd ~ && mkdir server/plugins/ && cd server/plugins/
 wget -O Geyser-Spigot.jar  https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/build/libs/Geyser-Spigot.jar
+echo "Self Destructing!"
+echo "Goodbye :)"
+echo "Thanks for using this script!"
+rm installer.sh
