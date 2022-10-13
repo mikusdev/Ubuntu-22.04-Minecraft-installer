@@ -1,8 +1,7 @@
-#################
-# Made with luv #
-#################
-
-echo "starting. --- Made by Mikus"
+echo "#################"
+echo "# Made with luv #"
+echo "# Made by Mikus.#"
+echo "#################"
 
 sudo apt update && sudo apt upgrade
 sudo apt install wget apt-transport-https gnupg nano screen
@@ -37,5 +36,5 @@ wget -O bootserver.sh https://raw.githubusercontent.com/mikusdev/Ubuntu-22.04-Mi
 ./bootserver.sh
 
 echo "Installing Geyser..."
-cd ~/plugins
+cd ~ && mkdir plugins && cd plugins
 wget -O Geyser-Spigot.jar  https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/build/libs/Geyser-Spigot.jar
