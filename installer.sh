@@ -27,8 +27,8 @@ echo "transfering files"
 cd ~ && mkdir server && cd server
 mv ~/buildtools/spigot-1.19.2.jar ~/server/spigot.jar
 echo "Installing bootserver scripts..."
-wget -O bootserver.sh https://raw.githubusercontent.com/mikusdev/Ubuntu-22.04-Minecraft-installer/main/bootserver.sh
-chmod u+x bootserver.sh
+wget -O server.sh https://raw.githubusercontent.com/mikusdev/Ubuntu-22.04-Minecraft-installer/main/bootserver.sh
+chmod u+x server.sh
 ./bootserver.sh
 echo "Installing Geyser..."
 cd ~ && mkdir server/plugins/ && cd server/plugins/
