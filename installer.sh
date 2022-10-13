@@ -33,6 +33,7 @@ mv ~/buildtools/spigot-1.19.2.jar ~/server/spigot.jar
 
 echo "Installing bootserver scripts..."
 wget -O bootserver.sh https://raw.githubusercontent.com/mikusdev/Ubuntu-22.04-Minecraft-installer/main/bootserver.sh
+chmod u+x bootserver.sh
 ./bootserver.sh
 
 echo "Installing Geyser..."
